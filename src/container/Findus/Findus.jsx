@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Findus = () => {
-  return (
-    <div>Findus</div>
-  )
-}
+const Findus = () => (
+  <div>Findus</div>
+);
 
-export default Findus
+export default Findus;

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const SpecMenu = () => {
-  return (
-    <div>SpecMenu</div>
-  )
-}
+const SpecMenu = () => (
+  <div>SpecMenu</div>
+);
 
-export default SpecMenu
+export default SpecMenu;
