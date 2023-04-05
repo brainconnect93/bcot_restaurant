@@ -6,3 +6,42 @@
   background: var(--color-black);
   padding: 1rem 2rem;
 }
+
+.app_navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app_navbar-logo img {
+  width: 120px;
+}
+
+.app_navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.app_navbar-links li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.app_navbar-links li:hover {
+  color: var(--color-grey);
+}
+
+.app_navbar-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_navbar-login a {
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: 1s ease;
+}

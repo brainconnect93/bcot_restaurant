@@ -18,6 +18,12 @@ const Navbar = () => (
         <li className="p_opensans"><a href="#awards">Awards</a></li>
         <li className="p_opensans"><a href="#contact">Contact</a></li>
       </ul>
+
+      <div className="app_navbar-login">
+        <a href="#login" className="p_opensans">Log In / Register</a>
+        <div />
+        <a href="#book" className="p_opensans">Book Table</a>
+      </div>
     </nav>
   </>
 );
