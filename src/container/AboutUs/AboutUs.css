@@ -1,3 +1,19 @@
-body {
-  padding: 0;
+.app_aboutus {
+  position: relative;
+}
+
+.app_aboutus_overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.app_aboutus_overlay img {
+  width: 391px;
+  height: 415px;
+  z-index: 0;
+}
+
+.app_aboutus-content {
+  width: 100%;
+  z-index: 2;
 }
