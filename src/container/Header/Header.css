@@ -6,7 +6,7 @@
   font-family: var(--font-family);
   color: var(--color-gold);
   letter-spacing: 0.04rem;
-  text-transform: capitalize;  
+  text-transform: capitalize;
   line-height: 100px;
   font-size: 90px;
 }
