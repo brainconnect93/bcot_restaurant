@@ -12,7 +12,6 @@ export {
   Chef,
   Findus,
   Footer,
-  Gallery,
   Header,
   Intro,
   Laurels,
