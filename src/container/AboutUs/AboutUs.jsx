@@ -10,7 +10,7 @@ const AboutUs = () => (
     </div>
 
     <div className="app_aboutus-content flex_center">
-      <div className="app_about-content_about">
+      <div className="app_aboutus-content_about">
         <h1 className="headtext_cormorant">About Us</h1>
         <img src={spoon} alt="about-spoon" className="about_img" />
         <p className="p_opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
@@ -21,7 +21,7 @@ const AboutUs = () => (
         <img src={knife} alt="knife" />
       </div>
 
-      <div className="app_about-content_about">
+      <div className="app_aboutus-content_history">
         <h1 className="headtext_cormorant">Our History</h1>
         <img src={spoon} alt="about-spoon" className="about_img" />
         <p className="p_opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
