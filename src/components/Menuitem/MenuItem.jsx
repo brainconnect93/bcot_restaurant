@@ -1,6 +1,6 @@
 import React from 'react';
-
-import './MenuItem.css'
+import PropTypes from 'prop-types';
+import './MenuItem.css';
 
 const MenuItem = ({ title, price, tags }) => (
   <div className="app_menuitem">
@@ -21,5 +21,11 @@ const MenuItem = ({ title, price, tags }) => (
     </div>
   </div>
 );
+
+MenuItem.propTypes = {
+  title: PropTypes.isRequired,
+  price: PropTypes.isRequired,
+  tags: PropTypes.isRequired,
+};
 
 export default MenuItem;
