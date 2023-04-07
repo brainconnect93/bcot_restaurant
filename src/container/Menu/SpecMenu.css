@@ -1,3 +1,18 @@
-body {
-  padding: 0;
+.app_specMenu {
+  flex-direction: column;
+  background: var(--color-black);
+}
+
+.app_specMenu-title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.app_specMenu-menu {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
 }
