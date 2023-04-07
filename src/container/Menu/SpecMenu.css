@@ -26,7 +26,7 @@
   color: var(--color-white);
 }
 
-.app_specMenu-menu_wine, 
+.app_specMenu-menu_wine,
 .app_specMenu-menu_cocktail {
   flex: 1;
   width: 100%;
