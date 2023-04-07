@@ -1,3 +1,84 @@
-body {
-  padding: 0;
+.app_specMenu {
+  flex-direction: column;
+  background: var(--color-black);
+}
+
+.app_specMenu-title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.app_specMenu-menu {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.app_specMenu-heading {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+}
+
+.app_specMenu-menu_wine,
+.app_specMenu-menu_cocktail {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app_specMenu-menu-img {
+  width: 410px;
+  margin: 0 2rem;
+}
+
+.app_specMenu-menu-img img {
+  width: 100%;
+  height: auto;
+}
+
+.app_specMenu-menu_items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 2000px) {
+  .app_specMenu-menu-img {
+    width: 650px;
+  }
+
+  .app_specMenu-menu-img img {
+    height: 920px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app_specMenu-menu {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .app_specMenu-menu-img {
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app_specMenu-menu-img {
+    width: 100%;
+  }
+
+  .app_specMenu-heading {
+    font-size: 35px;
+    line-height: 45px;
+  }
 }
