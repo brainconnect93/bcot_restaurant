@@ -27,8 +27,8 @@ const SpecMenu = () => (
         <img src={menu} alt="menu_spec" />
       </div>
 
-      <div className="app_specMenu-menu_cocktails flex_center">
-        <p className="app_specMenu-heading">Wine & Beer</p>
+      <div className="app_specMenu-menu_cocktail flex_center">
+        <p className="app_specMenu-heading">Cocktails</p>
         <div className="app_soecMenu-menu_items">
           {data.cocktails.map((cock) => (
             <MenuItem key={cock.title} title={cock.title} price={cock.price} tags={cock.tags} />
