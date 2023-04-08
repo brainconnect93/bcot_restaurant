@@ -34,13 +34,14 @@
 }
 
 .app_specMenu-menu-img {
-  width: 410px;
+  width: 400px;
   margin: 0 2rem;
 }
 
 .app_specMenu-menu-img img {
-  width: 100%;
+  width: 96%;
   height: auto;
+  margin: 0 auto;
 }
 
 .app_specMenu-menu_items {
@@ -48,16 +49,6 @@
   display: flex;
   flex-direction: column;
   margin: 2rem 0;
-}
-
-@media screen and (max-width: 2000px) {
-  .app_specMenu-menu-img {
-    width: 650px;
-  }
-
-  .app_specMenu-menu-img img {
-    height: 920px;
-  }
 }
 
 @media screen and (max-width: 1150px) {
