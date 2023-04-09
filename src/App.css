@@ -63,6 +63,14 @@
   border: none;
   outline: none;
   cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.custom_button:hover {
+  border-top: 2px solid var(--color-gold);
+  border-bottom: 2px solid var(--color-gold);
+  background: var(--color-black);
+  color: var(--color-gold);
 }
 
 .p_cormorant {
