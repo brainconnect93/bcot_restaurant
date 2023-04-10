@@ -34,14 +34,13 @@
 }
 
 .app_specMenu-menu-img {
-  width: 400px;
+  width: 410px;
   margin: 0 2rem;
 }
 
 .app_specMenu-menu-img img {
-  width: 96%;
+  width: 100%;
   height: auto;
-  margin: 0 auto;
 }
 
 .app_specMenu-menu_items {
@@ -53,7 +52,7 @@
 
 @media screen and (max-width: 1150px) {
   .app_specMenu-menu {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 100%;
   }
