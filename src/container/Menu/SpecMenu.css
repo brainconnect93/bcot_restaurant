@@ -50,19 +50,9 @@
   margin: 2rem 0;
 }
 
-@media screen and (max-width: 2000px) {
-  .app_specMenu-menu-img {
-    width: 650px;
-  }
-
-  .app_specMenu-menu-img img {
-    height: 920px;
-  }
-}
-
 @media screen and (max-width: 1150px) {
   .app_specMenu-menu {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 100%;
   }
