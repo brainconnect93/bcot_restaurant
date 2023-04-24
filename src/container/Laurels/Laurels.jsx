@@ -34,7 +34,7 @@ const Laurels = () => (
 );
 
 AwardCard.propTypes = {
-  award: PropTypes.string.isRequired,
+  award: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
 };

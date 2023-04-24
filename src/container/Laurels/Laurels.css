@@ -1,5 +1,6 @@
 .app_laurels_awards {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     margin-top: 3rem;
@@ -26,5 +27,12 @@
 @media screen and (min-width: 1900px) {
   .app_laurels_awards-card {
     min-width: 390px;
+  }
+}
+
+@media screen and (man-width: 450px) {
+  .app_laurels_awards-card {
+    min-width: 100%;
+    margin: 1rem;
   }
 }
