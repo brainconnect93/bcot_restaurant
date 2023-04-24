@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Laurels.css';
 import { SubHeading } from '../../components';
 import { data } from '../../constants';
@@ -31,5 +32,11 @@ const Laurels = () => (
 
   </div>
 );
+
+AwardCard.propTypes = {
+  award: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+};
 
 export default Laurels;
