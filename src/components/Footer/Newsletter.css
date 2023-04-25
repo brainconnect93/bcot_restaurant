@@ -28,3 +28,29 @@
 .app_newletter-input button {
   width: max-content;
 }
+
+@media screen and (max-width: 990px) {
+  .app_newletter-input {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .app_newletter-input input {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app_newletter {
+    padding: 2rem 0;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .app_newletter-heading h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
