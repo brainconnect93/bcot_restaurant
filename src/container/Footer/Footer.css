@@ -9,3 +9,44 @@
   background: var(--color-black);
   padding-top: 0;
 }
+
+.app_footer-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 5rem;
+  padding: 0 2rem;
+}
+
+.app_footer-links-contact,
+.app_footer-links-logo,
+.app_footer-links-work {
+  flex: 1;
+  margin: 1rem;
+  text-align: center;
+}
+
+.app_footer-links-logo img:first-child {
+  width: 210px;
+  margin-bottom: 0.75rem;
+}
+
+.app_footer-links-work p:nth-child(2n + 1) {
+  margin-bottom: 1rem;
+}
+
+.app_footer-links_icons {
+  margin-top: 0.5rem;
+}
+
+.app_footer-links_icons svg {
+  color: var(--color-white);
+  margin: 0.5rem;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.app_footer-links_icons svg:hover {
+  color: var(--color-gold);
+}
