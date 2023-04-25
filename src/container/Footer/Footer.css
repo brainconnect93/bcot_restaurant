@@ -50,3 +50,18 @@
 .app_footer-links_icons svg:hover {
   color: var(--color-gold);
 }
+
+.app_footer-header {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.app_footer-copy {
+  margin-top: 3rem;
+}
