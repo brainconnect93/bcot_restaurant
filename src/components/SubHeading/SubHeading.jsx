@@ -11,7 +11,7 @@ const SubHeading = ({ title }) => (
 );
 
 SubHeading.propTypes = {
-  title: PropTypes.isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default SubHeading;

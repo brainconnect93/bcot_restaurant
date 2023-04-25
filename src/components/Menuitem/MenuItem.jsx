@@ -23,9 +23,9 @@ const MenuItem = ({ title, price, tags }) => (
 );
 
 MenuItem.propTypes = {
-  title: PropTypes.isRequired,
-  price: PropTypes.isRequired,
-  tags: PropTypes.isRequired,
+  title: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
+  tags: PropTypes.string.isRequired,
 };
 
 export default MenuItem;
