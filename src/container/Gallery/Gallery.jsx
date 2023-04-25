@@ -41,7 +41,7 @@ const Gallery = () => {
         </div>
         <div className="app_gallery-img_arrow">
           <BsArrowLeftShort className="gallery_arrow-icon" onClick={() => scroll('left')} />
-          <BsArrowRightShort className="gallery_arrow-icon" onClick={() => scroll('left')} />
+          <BsArrowRightShort className="gallery_arrow-icon" onClick={() => scroll('right')} />
         </div>
       </div>
     </div>
