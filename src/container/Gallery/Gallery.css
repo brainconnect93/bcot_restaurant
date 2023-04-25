@@ -15,10 +15,6 @@
   padding-right: 2rem;
 }
 
-.app_gallery-content p {
-  width: 75%;
-}
-
 .app_gallery-content button {
   margin-top: 1rem;
 }
@@ -97,4 +93,41 @@
 
 .gallery_arrow-icon:hover {
   color: var(--color-white);
+}
+
+@media screen and (max-width: 1150px) {
+  .app_gallery {
+    flex-direction: column;
+  }
+
+  .app_gallery-img {
+    max-width: 100%;
+    margin: 5rem 0;
+  }
+}
+
+@media screen and (maxn-width: 850px) {
+  .app_gallery {
+    padding: 4rem 0 4rem 4rem;
+  }
+
+  .app_gallery-content {
+    max-width: 100%;
+    margin: 5rem 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app_gallery {
+    padding: 4rem 0 4rem 2rem;
+  }
+
+  .app_gallery-content {
+    min-width: 100%;
+  }
+
+  .app_gallery-img-card {
+    min-width: 240px;
+    height: 320px;
+  }
 }
