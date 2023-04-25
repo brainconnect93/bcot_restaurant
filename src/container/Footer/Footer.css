@@ -65,3 +65,30 @@
 .app_footer-copy {
   margin-top: 3rem;
 }
+
+@media screen and (max-width: 1150px) {
+  .app_footer-links {
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .app_footer-links-contact,
+  .app_footer-links-logo,
+  .app_footer-links-work {
+    margin: 2rem 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app_footer {
+    padding: 0 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .app_footer-links-logo img:first-child {
+    width: 80%;
+  }
+}
